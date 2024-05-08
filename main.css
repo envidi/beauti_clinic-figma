@@ -96,6 +96,11 @@ li {
   padding-left: var(--padding-web);
   padding-right: var(--padding-right-web);
 }
+.large-container {
+  max-width: 1680px;
+  width: 100%;
+ 
+}
 .card-team-container {
   padding-left: calc(var(--padding-web) - 2.9%);
   padding-right: calc(var(--padding-right-web) - 3.3%);
@@ -399,6 +404,7 @@ li {
 }
 .first-and-last{
     width: 100%;
+    gap: 2rem;
     justify-content: space-between;
     margin: 2rem 0;
 }

@@ -137,9 +137,18 @@
     margin-top: 1.3rem;
     
 }
-.overlay{
+/* .overlay{
     position: absolute;
     bottom: -127vh;
+    width: 100%;
+    z-index: -1;
+    height: 50rem;
+    background-color: var(--second-footer-color);
+
+} */
+.overlay{
+    
+    margin-top: 35rem;
     width: 100%;
     z-index: -1;
     height: 50rem;
