@@ -139,7 +139,7 @@
 }
 .overlay{
     position: absolute;
-    bottom: -128vh;
+    bottom: -127vh;
     width: 100%;
     z-index: -1;
     height: 50rem;
