@@ -213,7 +213,7 @@ li {
   cursor: pointer;
   background-color: var(--main-footer-color);
   padding: 1rem 1rem;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
   color: white;
@@ -228,7 +228,18 @@ li {
   transition: 0.5s;
   transform: translateX(24rem);
   position: absolute;
-  top: -1.8rem;
+  top: -1rem;
+  background-color: var(--white);
+  color: var(--primary-color);
+}
+#open:checked ~ .open .open-icon {
+  display: none;
+}
+#open:checked ~ .open .close-icon {
+  visibility: visible;
+}
+.open>.close-icon{
+  visibility: hidden;
 }
 .close i {
   font-size: 1.8rem;
