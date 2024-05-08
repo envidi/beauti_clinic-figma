@@ -131,6 +131,9 @@
   .contain-nav-btn {
     display: none;
   }
+  .logo-pc{
+    display: none;
+  }
   .mobile {
     display: block;
   }
@@ -336,7 +339,7 @@
     text-align: center;
   }
   .overlay{
-    margin-top: 37rem;
+    margin-top: 39rem;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -408,6 +411,9 @@
   }
   .copy-right {
     text-align: center;
+  }
+  .overlay{
+    margin-top: 43rem;
   }
   
 }
