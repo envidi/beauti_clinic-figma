@@ -20,9 +20,9 @@ html {
   box-sizing: border-box;
   letter-spacing: 2px;
 }
-body {
+/* body {
   overflow-x: hidden;
-}
+} */
 li {
   list-style: none;
 }
