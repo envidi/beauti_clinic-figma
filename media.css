@@ -444,4 +444,7 @@
   .overlay {
     margin-top: 43rem;
   }
+  .scroll-up{
+    bottom: 3.2rem;
+  }
 }
