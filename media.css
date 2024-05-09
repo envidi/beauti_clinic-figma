@@ -35,7 +35,7 @@
   }
   
 }
-@media only screen and (min-width: 1281px) {
+@media only screen and (min-width: 1441px) {
   html {
     font-size: 62.5%;
   }
@@ -45,6 +45,19 @@
   }
   .footer-social-media-copy-right{
     padding-left: 2.9rem;
+  }
+  
+}
+@media only screen and (max-width: 1280px) {
+  html{
+    font-size: 57%;
+  }
+  .footer-social-media-copy-right{
+    margin-top: 5rem;
+  }
+ 
+  .footer-pc{
+    padding: 12vw 0;
   }
   
 }
@@ -118,6 +131,11 @@
   /* contact */
   .overlay{
     margin-top: 36rem;
+  }
+  /* footer */
+  .footer-pc{
+    /* display: none; */
+    background-size: cover;
   }
 }
 @media only screen and (max-width: 780px) {

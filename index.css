@@ -2,7 +2,7 @@
   --secondary-color: #ff64ae;
   --primary-color: #091156;
   --white: #ffffff;
-  --padding-web: 10.15%;
+  --padding-web: 10.2%;
   --padding-right-web: 10.45%;
 
   --main-footer-color: #172176;
@@ -91,7 +91,7 @@ li {
   width: 100%;
 }
 .container {
-  max-width: 1280px;
+  max-width: 1440px;
   width: 100%;
   padding-left: var(--padding-web);
   padding-right: var(--padding-right-web);
@@ -112,33 +112,36 @@ li {
   border-radius: 100px;
   color: var(--white);
   border: none;
-  padding: 1.2rem 3.8rem;
+  padding: 1.35rem 4.3rem;
+  letter-spacing: 0.1rem;
   font-family: "Poppins", sans-serif;
 }
 
+
 .logo img {
-  width: 23rem;
+  width: 26rem;
   object-fit: cover;
 }
 .nav {
-  padding: 3.5rem 0px;
+  padding: 4rem 0px;
 }
 .nav-ul {
-  gap: 3.95rem;
+  gap: 4.38rem;
 }
 .nav-ul li {
   display: flex;
   align-items: center;
-  font-size: 1.3rem;
+  font-size: 1.55rem;
   letter-spacing: 1.93px;
   color: var(--primary-text-color);
 }
 .contain-nav-btn {
-  gap: 4.3rem;
+  gap: 5.1rem;
   margin-top: -1.3rem;
 }
 .add {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
+  margin-left: 0.25rem;
 }
 .mobile {
   position: relative;

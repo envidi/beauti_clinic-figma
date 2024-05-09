@@ -16,3 +16,6 @@ openBtn.addEventListener('click', function(){
 closeBtn.addEventListener('click', function(e){
     menu.classList.remove('show')
 })
+// const content 
+const content = closeBtn
+

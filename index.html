@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="footer.css">
+    <!-- <link rel="stylesheet" href="footer.css"> -->
+    <link rel="stylesheet" href="footer2.css">
     <link rel="stylesheet" href="media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,13 +32,13 @@
                 <div class="flex contain-nav-btn">
 
                     <ul class="flex nav-ul poppins-medium">
-                        <li class="li_home">Home <span class="add">+</span></li>
+                        <li class="li_home">Home <span class="add"> +</span></li>
                         <li>About</li>
                         <li>Service</li>
                         <li>Gallery</li>
                         <li>Blog</li>
                     </ul>
-                    <button class="btn-secondary-color fs-16  poppins-medium">
+                    <button class="btn-secondary-color fs-16  poppins-medium contact-btn">
                         Contact
                     </button>
                 </div>
@@ -80,7 +81,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a id="home" href="#">
                                     <span><i class="fa-solid fa-book"></i></span>
                                     Blog
                                 </a>
@@ -102,12 +103,12 @@
     </header>
     <main>
         <section class="section-introduce  ">
-            <div class="container contain-introduce-text-image flex al-c jt-b">
+            <div  class="container contain-introduce-text-image flex al-c jt-b">
 
                 <div class="introduce-text">
                     <h2 class="poppins-semibold">Clinic & beauty
                         consultant</h2>
-                    <p>
+                    <p class="poppins-semibold">
                         It is a long established fact that a reader will be
                         by the readable content of a page.
                     </p>
@@ -309,19 +310,21 @@
                     </p>
                     <form class="form-contact-input" action="">
                         <div class="flex first-and-last ">
-                            <input type="text" placeholder="First name" class=" poppins-light form-contact_input">
-                            <input type="text" placeholder="Last name" class=" poppins-light form-contact_input">
+                            <input type="text" placeholder="First name"
+                                class="first-and-last-child  poppins-light form-contact_input">
+                            <input type="text" placeholder="Last name"
+                                class="first-and-last-child  poppins-light form-contact_input">
                         </div>
                         <div class="flex flex-col email-and-subject">
                             <input type="text" placeholder="Email address" class="poppins-light form-contact_input">
                             <input type="text" placeholder="Subject message" class="poppins-light form-contact_input">
-                            <textarea placeholder="Your inquiry here" name="" rows="9"
+                            <textarea placeholder="Your inquiry here" name="" rows="10"
                                 class="poppins-light form-contact_input"></textarea>
 
 
                         </div>
                         <button class="btn-secondary-color poppins-medium send-message">
-                            Send message
+                            Send Message
                         </button>
                     </form>
                 </div>
@@ -329,7 +332,7 @@
             </div>
         </section>
     </main>
-    <footer class="higher-footer flex jt-c w-100">
+    <!-- <footer class="higher-footer flex jt-c w-100">
         <div class="footer flex jt-c">
             <div class="footer-clone flex jt-c w-100">
                 <div class="overlay2"></div>
@@ -392,9 +395,74 @@
         </div>
 
 
+    </footer> -->
+    <footer>
+       
+        <div class="footer-pc">
+            <div class="overlay2"></div>
+            <div class="container large-container flex flex-col">
+                <a href="#" class="scroll-up">
+                    <i class="fa-solid fa-arrow-up"></i>
+                    
+                </a>
+                <div class="flex container-footer">
+                    <div class="footer-col-1 flex flex-col">
+                        <img src="./image/Footer Logo.png" alt="">
+                        <p class="theme-footer">Beautice is a Beauty Clinic WordPress Theme.</p>
+                        <p class="address-footer poppins-light">Baker Steet 101, NY, United States.</p>
+                        <p class="number-email-footer flex">
+                            <span>+521 569 8966.</span>
+                            <span><a href="#" class="link_footer">mail@company.com.</a></span>
+                        </p>
+                    </div>
+                    <div class="footer-col-2 flex flex-col">
+                        <h5>Pages</h5>
+                        <ul>
+                            <li><i class="fa-solid fa-caret-right"></i> Home</li>
+                            <li><i class="fa-solid fa-caret-right"></i> About</li>
+                            <li><i class="fa-solid fa-caret-right"></i> Services</li>
+                            <li><i class="fa-solid fa-caret-right"></i> Gallery</li>
+                            <li><i class="fa-solid fa-caret-right"></i> Team</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-3 flex flex-col">
+                        <h5>Informations</h5>
+                        <ul>
+                            <li><i class="fa-solid fa-caret-right"></i> Terms & conditions</li>
+                            <li><i class="fa-solid fa-caret-right"></i> Privacy policy</li>
+                            <li><i class="fa-solid fa-caret-right"></i> Blog</li>
+                            <li><i class="fa-solid fa-caret-right"></i> Contact</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-social-media-copy-right flex jt-b">
+                    <div class="footer-icon-social-media flex ">
+                        <div>
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+                    <div class="copy-right flex">
+                        © AltDesain Studio 2021 - All right reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <img class="footer_img" src="./image/Footer_BG.png" alt=""> -->
+
     </footer>
-    <div class="overlay">
-    </div>
+    <!-- <div class="overlay"></div> -->
     <script src="index.js"></script>
 </body>
 
