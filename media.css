@@ -239,6 +239,9 @@
     text-align: center;
     width: 80%;
   }
+  .form-contact{
+    text-align: center;
+  }
   /* footer */
   .footer {
     height: auto;
@@ -373,7 +376,7 @@
 }
 @media only screen and (max-width: 500px) {
   html {
-    font-size: 45%;
+    font-size: 40%;
   }
   .container {
     padding-left: var(--ipad-responsive-padding);
