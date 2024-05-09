@@ -376,7 +376,7 @@
 }
 @media only screen and (max-width: 500px) {
   html {
-    font-size: 40%;
+    font-size: 41%;
   }
   .container {
     padding-left: var(--ipad-responsive-padding);
